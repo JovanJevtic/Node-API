@@ -1,0 +1,19 @@
+GET http://localhost:3000/recipes
+
+###
+
+GET http://localhost:3000/recipes/5edb859a2bd2ca543890a736
+
+###
+
+POST http://localhost:3000/recipes
+Content-Type: application/json
+
+{
+    "name": "Tuna",
+    "ingridients": "Tuna, Limun, Marinada"
+}
+
+###
+
+DELETE http://localhost:3000/recipes/5edb87d9a85a2f4390662442
