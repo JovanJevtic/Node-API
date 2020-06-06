@@ -10,8 +10,8 @@ POST http://localhost:3000/recipes
 Content-Type: application/json
 
 {
-    "name": "Tuna",
-    "ingridients": "Tuna, Limun, Marinada"
+    "name": "Name",
+    "ingridients": "Ingridient"
 }
 
 ###
